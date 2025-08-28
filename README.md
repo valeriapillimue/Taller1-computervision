@@ -87,15 +87,19 @@ Reduce la imagen a 32 colores
 ### Filtros
 
 - Convolución genérica
+  
 ![Convolución genérica](assets/filtroconvoluciongenerica.png)
 
 - Sobel X, Sobel Y, Magnitud del gradiente
+  
 ![Filtros Sobel](assets/filtrosobel.png)
 
 - Canny
+  
 ![Filtro Canny](assets/filtrocanny.png)
 
 - Laplaciano
+  
 ![Filtro Laplaciano](assets/filtrolaplaciano.png)
 
 ## Pruebas unitarias
@@ -108,7 +112,7 @@ python -m unittest discover -s tests -v
 Esto probará automáticamente todas las funciones implementadas.
 
 ## 🛠️ Funcionalidades implementadas
-
+```text
 cvtools/camera.py
    apply_radial_distortion(points, k1, k2)
    project_points_pinhole(points_3d, f)
@@ -126,7 +130,7 @@ cvtools/filters.py
    sobel_y(img)
    canny(img, low, high)
    laplacian(img)
-
+```
 ### 👩‍💻 Autor
 
 Proyecto desarrollado por Valeria Fernanda Pillimue
